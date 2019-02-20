@@ -6,15 +6,15 @@ url: "https://cshyeon.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: cshyeon DevLog
+  title: Nop Dev
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "cshyeon DevLog" # used by search engines
+  description: "cshyeon Nop Dev log" # used by search engines
 
   # Header and footer text
   header_text: >
-     <H1>cshyeon DevLog</h1>
+     <H1>Nop Dev</h1>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
