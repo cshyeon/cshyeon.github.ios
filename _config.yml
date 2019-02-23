@@ -27,11 +27,23 @@ github_username: cshyeon
 timezone: Asia/Seoul
 
 # Build settings
+port: 9797
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "cshyeon"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
