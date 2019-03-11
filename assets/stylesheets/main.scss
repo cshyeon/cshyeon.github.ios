@@ -1,5 +1,19 @@
 ---
 ---
 
-@import "head";
+/* reset */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // background-color: rgba(76,179,255,1.0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import "header";
 @import "code/monokai";

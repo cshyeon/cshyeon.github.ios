@@ -33,12 +33,14 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+lang: ko
 defaults:
   -
     scope:
       path: ""
     values:
       author: "cshyeon"
+      lang: "ko"
   -
     scope:
       path: "assets/img"
