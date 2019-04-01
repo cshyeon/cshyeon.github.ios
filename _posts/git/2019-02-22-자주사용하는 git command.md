@@ -3,7 +3,7 @@ layout: post
 title: "자주쓰는 git 명령어"
 slug: "using-git-command-frequently"
 date: 2019-02-22 14:26:28 +0900
-categories: jekyll update
+categories: git
 ---
 
 git에서 자주 사용하는 명령어들을 정리해 보았다.
