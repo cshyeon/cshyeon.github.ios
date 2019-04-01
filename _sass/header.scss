@@ -1,12 +1,14 @@
 $max-wrapper-width: 1280px;
 $header-height: 93px;
 
+@import './site.scss';
+
 .site-header {
   display: flex;
   justify-content: center;
   height: $header-height;
 
-  background: linear-gradient(to left, #3f87a6, #ebf8e1);
+  background: linear-gradient(to left, #3f87a6, #ebf8e1);  
   color: white;
   // border-bottom: 1px solid gray;
   box-shadow: 0 1px 4px rgba(0,0,0,.22);
