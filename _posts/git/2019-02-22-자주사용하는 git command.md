@@ -20,6 +20,11 @@ git fetch
 git branch -r
 {% endhighlight %}
 
+- 원격 저장소의 브랜치 로컬에 가져와 적용하기
+{% highlight bash %}
+git checkout -t origin/<branchname>
+{% endhighlight %}
+
 - 모든 저장소의 브랜치 보기
 {% highlight bash %}
 git branch -a
