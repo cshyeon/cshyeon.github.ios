@@ -15,19 +15,31 @@ git에서 자주 사용하는 명령어들을 정리해 보았다.
 git fetch
 {% endhighlight %}
 
+#### 브랜치
+
+- 모든 저장소의 브랜치 보기
+{% highlight bash %}
+git branch -a
+{% endhighlight %}
+
 - 원격 저장소의 브랜치만 보기
 {% highlight bash %}
 git branch -r
 {% endhighlight %}
 
+- 로컬 저장소 브랜치 삭제하기
+{% highlight bash %}
+git branch -d <branchname>
+{% endhighlight %}
+
+- 로컬 저장소 브랜치 삭제후 원격 저장소 브랜치 삭제 반영하기
+{% highlight bash %}
+git push origin :<로컬에서 삭제한 branchname>
+{% endhighlight %}
+
 - 원격 저장소의 브랜치 로컬에 가져와 적용하기
 {% highlight bash %}
 git checkout -t origin/<branchname>
-{% endhighlight %}
-
-- 모든 저장소의 브랜치 보기
-{% highlight bash %}
-git branch -a
 {% endhighlight %}
 
 - 원격 저장소에서 삭제된 브랜치 로컬에서 삭제
