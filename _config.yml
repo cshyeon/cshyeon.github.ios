@@ -57,3 +57,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# snippet
+# run dev
+# bundle exec jekyll serve
