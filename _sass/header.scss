@@ -24,7 +24,8 @@ $header-height: 70px;
     padding: 0px 10px;
 
     /* header link tag */
-    a {
+    .site-nav {
+      color: rgb(32, 32, 32);
       margin: 0 5px;
       font-size: 1.2rem;
     }

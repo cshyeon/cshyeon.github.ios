@@ -1,12 +1,12 @@
 <header class="site-header">
   <div class="wrapper">
     <!-- Home link -->
-    <a class="home-link" href="/">Home</a>
+    <a class="site-nav home-link" href="/">Home</a>
 
     {%- assign allPages = site.pages -%}  
     {%- for myPage in allPages -%}
       {%- if myPage.title -%}
-        <a class="page-link" href="{{ myPage.url | relative_url }}">{{ myPage.title | escape }}</a>
+        <a class="site-nav page-link" href="{{ myPage.url | relative_url }}">{{ myPage.title | escape }}</a>
       {%- endif -%}
     {%- endfor -%}  
   </div>
